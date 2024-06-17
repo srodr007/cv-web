@@ -2,7 +2,7 @@
   "name": "portfolio-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://srodr007.io/cv-web",
+  "homepage": "https://srodr007.github.io/cv-web",
   "dependencies": {
     "@tabler/icons-react": "^3.6.0",
     "@testing-library/jest-dom": "^5.17.0",
