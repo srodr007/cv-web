@@ -21,76 +21,119 @@ max-width: 107rem;
 padding: 0 4rem
 }
 
+/* Estilos móviles y correcciones de márgenes y rellenos */
 .mobile-menu {
-cursor: pointer;
-display: none;
-font-size: 2.3rem
+  cursor: pointer;
+  display: none;
+  font-size: 2.3rem;
 }
 
 .mobile-menu:hover {
-color: #147efb;
-transition: all .3s
+  color: #147efb;
+  transition: all .3s;
 }
 
 @media (max-width: 900px) {
-.mobile-menu {
-    display:flex
-}
+  .mobile-menu {
+    display: flex;
+  }
 }
 
 .closed-menu {
-left: -100%!important
+  left: -100%!important;
 }
 
 .open-menu {
-left: 0!important
+  left: 0!important;
 }
 
 .mobile-nav {
-align-items: center;
-background-color: #fff;
-display: flex;
-height: 100vh;
-justify-content: center;
-left: 0;
-position: fixed;
-text-align: center;
-top: 0;
-transition: all .3s ease-in-out;
-width: 100%;
-z-index: 300
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  z-index: 300;
 }
 
 .mobile-nav span {
-cursor: pointer;
-font-size: 3.3rem;
-position: absolute;
-right: 4rem;
-top: 2rem
+  cursor: pointer;
+  font-size: 3.3rem;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
 }
 
 .mobile-nav span:hover {
-color: #147efb;
-transition: all .3s
+  color: #147efb;
+  transition: all .3s;
 }
 
 .mobile-nav ul {
-display: flex;
-flex-direction: column;
-font-size: 2.3rem;
-gap: 4rem;
-list-style: none
+  display: flex;
+  flex-direction: column;
+  font-size: 2.3rem;
+  gap: 4rem;
+  list-style: none;
 }
 
 .mobile-nav ul a {
-color: #000;
-font-weight: 500;
-text-decoration: none
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .mobile-nav ul a:hover {
-color: #147efb;
-transition: all .3s
+  color: #147efb;
+  transition: all .3s;
+}
+
+/* Ajustar márgenes y rellenos para las secciones */
+.skills, .about {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajustar el contenedor para dispositivos móviles */
+@media (max-width: 900px) {
+  .skills, .about {
+    padding: 2rem 0;
+  }
+}
+
+/* Asegurarse de que las secciones no tengan alturas fijas */
+.skills, .about {
+  height: auto;
+}
+
+/* Ajustar el espaciado entre las secciones */
+@media (max-width: 900px) {
+  .skills {
+    margin-bottom: 2rem;
+  }
+  
+  .about {
+    margin-top: 2rem;
+  }
+}
+
+/* Asegurarse de que los elementos no estén flotando innecesariamente */
+.skills ul, .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .skills ul, .about-content {
+    display: block;
+  }
 }
 
 nav {
