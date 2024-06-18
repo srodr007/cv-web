@@ -374,7 +374,7 @@ position: absolute
 
 @media (max-height: 700px) {
   .skills {
-      margin-top: -10rem
+      margin-top: -30rem
   }
   }
 
@@ -401,7 +401,7 @@ font-size: 1.5rem
 
 @media (max-height: 700px) {
   .skills p {
-      margin-top: -10rem
+      display:none
   }
   }
 
@@ -420,7 +420,7 @@ list-style: none
 
 @media (max-height: 700px) {
   .skills ul {
-      margin-top: -10rem
+      margin-top: -30rem
   }
   }
 
