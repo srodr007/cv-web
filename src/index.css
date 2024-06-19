@@ -147,7 +147,7 @@ cursor: pointer
 background-color: #f9f9f9;
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 700px;
 position: relative;
 width: 100%
 }
@@ -374,7 +374,7 @@ position: absolute
 
 @media (max-height: 600px) {
   .skills {
-      margin-top: -20rem
+      margin-top: -21rem
   }
   }
 
@@ -420,7 +420,7 @@ list-style: none
 
 @media (max-height: 600px) {
   .skills ul {
-      margin-top: -20rem
+      margin-top: -21rem
   }
   }
 
@@ -529,12 +529,12 @@ transform: translateY(-1rem)
 
 .about {
 background-color: #fff;
-padding: 100px 0
+padding: 15rem 0
 }
 
 @media (max-width: 1020px) {
 .about {
-    padding:50px 0
+    padding:8rem 0
 }
 }
 
