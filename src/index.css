@@ -372,11 +372,7 @@ position: absolute
 }
 }
 
-@media (max-height: 600px) {
-  .skills {
-      margin-top: -21rem
-  }
-  }
+
 
 .skills p {
 border-right: 2px solid rgba(45,46,50,.5);
@@ -399,11 +395,7 @@ font-size: 1.5rem
 }
 }
 
-@media (max-height: 600px) {
-  .skills p {
-      display:none
-  }
-  }
+
 
 .skills ul {
 display: flex;
@@ -418,11 +410,7 @@ list-style: none
 }
 }
 
-@media (max-height: 600px) {
-  .skills ul {
-      margin-top: -21rem
-  }
-  }
+
 
 .skills ul li {
 cursor: pointer
@@ -457,12 +445,7 @@ transform: translateY(-1rem)
   }
   }
 
-  @media (max-height: 600px) {
-    .database {
-        display: none
-        
-    }
-    }
+
   
   .database p {
   border-right: 2px solid rgba(45,46,50,.5);
@@ -485,12 +468,7 @@ transform: translateY(-1rem)
   }
   }
 
-  @media (max-height: 600px) {
-    .database p {
-        display: none
-        
-    }
-    }
+
   
   .database ul {
   display: flex;
@@ -505,12 +483,7 @@ transform: translateY(-1rem)
   }
   }
 
-  @media (max-height: 600px) {
-    .database ul {
-        display: none
-        
-    }
-    }
+  
   
   .database ul li {
   cursor: pointer
